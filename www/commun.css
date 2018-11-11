@@ -1,0 +1,70 @@
+#Entête {
+	height: 150px;
+	width: 750px;
+	background-color: #CCC;
+}
+#Menu {
+	background-color: #C2C1C1;
+	height: 50px;
+	width: 750px;
+	text-align: center;
+}
+#Pied {
+	width: 750px;
+	height: 35px;
+	background-image: url(Cadres/Bordure_pied.gif);
+}
+#Page {
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Contenu {
+	background-image: url(Cadres/Bordure_contenu.png);
+	background-repeat: repeat-y;
+	width: 750px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	
+}
+#Page #Contenu #Contenu1 {
+	width: 690px;
+	margin-left: 30px;
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+
+#Page #Menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding-top: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#Page #Menu ul li {
+	display: inline;
+	color: #667AB3;
+	padding: 0px;
+}
+.Espace {
+	margin-right: 55px;
+}
+#Page #Menu ul  a {
+	text-decoration: none;
+	color: #667AB3;
+	padding: 0px;
+	font-weight: bolder;
+}
+#Page #Menu ul  a:hover {
+	color: #FFF;
+	background-color: #F00;
+}
+#Page #Contenu #Contenu1 #Titre {
+	font-size: 20px;
+	background-color: #999;
+}
+#Page #Contenu #Contenu1 #Titre1 {
+	font-size: 18px;
+	background-color: #FF0;
+}

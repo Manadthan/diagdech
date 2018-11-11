@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Maquette</title>
+<style type="text/css">
+<!--
+#Page #Contenu form {
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Page #Contenu form p #societe {
+	width: 350px;
+}
+#Page #Contenu form p #contenance {
+	width: 50px;
+}
+#Page #Contenu form p #objet {
+	height: 80px;
+	width: 500px;
+}
+#Page #Contenu form fieldset #coordonnees p #code {
+	float: none;
+	width: 50px;
+}
+#Page #Contenu form fieldset p #ville {
+	margin-left: 46px;
+}
+#Page #Contenu form fieldset p #sprytextfield3 #code {
+	width: 60px;
+}
+#Page #Contenu form fieldset p #adresse {
+	height: 60px;
+	margin-left: 26px;
+	width: 350px;
+}
+#Page #Contenu form fieldset p #nom {
+	margin-left: 16px;
+	width: auto;
+}
+#Page #Contenu form fieldset p #sprytextfield2 #tel {
+	width: 90px;
+}
+-->
+</style>
+<link href="commun.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="Page">
+  <div id="Entête"><img src="Images/communication.gif" width="213" height="150" alt="Danger amiante" /><img src="Images/Logo site.jpg" width="328" height="150" alt="Logo" /><img src="Images/communication2.gif" width="209" height="150" alt="Danger plomb" /></div>
+<div id="Menu">
+   <ul>
+      <li class="Espace"><a href="index.html"> Diagnostic déchets avant démol</a></li>
+      <li class="Espace"><a href="prelevement.html">Stratégie/prélèvement d'air</a></li>
+      <li class="Espace"><a href="diag-pollution.html">Diagnostic pollution sols</a></li>
+   </ul>
+  </div>
+  <div id="Menu">
+   <ul>
+      <li class="Espace"><a href="ADR.html"> Conseiller sécurité ADR</a></li>
+      <li class="Espace"><a href="examen-visuel.html">Examen visuel</a></li>
+      <li class="Espace"><a href="test-masque.html">Test ajustement masque</a></li>
+   </ul>
+  </div>
+  <div id="Menu">
+   <ul>
+      <li class="Espace"><a href="RIS.html"> Réservoir intérieur souple</a></li>
+      <li class="Espace"><a href="contact.html">Contact</a></li>
+      <li class="Espace"><a href="presentation.html">Présentation et info légales</a></li>
+   </ul>
+  </div>
+  <div id="Contenu">
+
+<form action="mailto:eric.soulet@diag-dechets.fr" method="post" enctype="text/plain">
+  <fieldset>
+    <legend>- Remplissez ce formulaire, réponse sous 24 heures ou appelez au 0673616593 -</legend>
+    <p>
+      <label for="societe">Société</label>
+      <input type="text" name="societe" id="societe" accesskey="s" />
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name="civil" value="Mr" id="civil_0" />
+        Monsieur</label>
+      <label>
+        <input type="checkbox" name="civil" value="Mme" id="civil_1" />
+        Madame</label>
+      <label>
+        <input type="checkbox" name="civil" value="Mlle" id="civil_2" />
+        Mademoiselle</label>
+      <br />
+    </p>
+      <p><span id="sprytextfield5">
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" />
+        <span class="textfieldRequiredMsg">Renseignement obligatoire.</span></span></p>
+      <p>
+        <label for="prenom">Prénom    :</label>
+        <input type="text" name="prenom" id="prenom" accesskey="p" />
+        </p>
+      <p>
+        <label for="adresse">Adresse  :</label>
+        <input type="text" name="adresse" id="adresse" accesskey="a" />
+      </p>
+      <p><span id="sprytextfield3">
+      <label for="code">Code postal :</label>
+      <input type="text" name="code" id="code" />
+      <span class="textfieldRequiredMsg">Renseignement obligatoire.</span><span class="textfieldInvalidFormatMsg">Format non valide (5 chiffres).</span></span></p>
+      <p><span id="sprytextfield6">
+        <label for="ville">Ville :</label>
+        <input type="text" name="ville" id="ville" />
+        <span class="textfieldRequiredMsg">Renseignement obligatoire.</span></span></p>
+      <p><span id="sprytextfield2">
+      <label for="tel">Téléphone :</label>
+      <input type="text" name="tel" id="tel" />
+      <span class="textfieldRequiredMsg">Renseignement obligatoire.</span><span class="textfieldInvalidFormatMsg">Format non valide (10 chiffres).</span></span></p>
+      <p><span id="sprytextfield1">
+      <label for="mail">Adresse mail :</label>
+      <input type="text" name="mail" id="mail" />
+      <span class="textfieldInvalidFormatMsg">Adresse non valide.</span></span> </p>
+    <p>
+      <input type="checkbox" name="urgent" id="urgent" />
+      <label for="urgent">Demande urgente (cochez la case)</label>
+    </p>
+    <p>
+    <input type="checkbox" name="diag-dechets" id="diag-dechets" />
+      <label for="urgent">Demande de diagnostic déchets avant démolition (cochez la case)</label>
+    </p>
+    <p>
+    <input type="checkbox" name="diag-pollution" id="diag-pollution" />
+    <label for="urgent">Demande d'audit pollution des sols EVAL phase 1 (cochez la case)</label>
+    </p>
+     <p>
+    <input type="checkbox" name="strategie" id="strtegie" />
+    <label for="urgent">Demande d'élaboration d'une stratégie de prélèvement (cochez la case)</label>
+    </p>
+     <p>
+    <input type="checkbox" name="prelevement" id="prelevement" />
+    <label for="urgent">Demande de prélèvement d'air en vue de déterminer la concentration en fibre d'amiante (cochez la case)</label>
+    </p>
+      <p>
+    <input type="checkbox" name="test-masque" id="test-masque" />
+    <label for="urgent">Demande de test d'ajustement de masques (cochez la case)</label>
+    </p>
+     <p>
+    <input type="checkbox" name="reservoir" id="reservoir" />
+    <label for="urgent">Demande de mise en conformité d'un réservoir</label>
+    </p>
+    
+    <p>
+    <label for="contenance">Contenance de votre réservoir en litres :</label>
+    <input type="text" name="contenance" id="contenance" />
+   </p>
+    <p>
+      <label>
+        Votre réservoir est il enterré ?
+        <input type="checkbox" name="enterre" value="oui" id="enterre_0" />
+        Oui</label>
+      <label>
+        <input type="checkbox" name="enterre" value="non" id="enterre_1" />
+       Non</label>
+      <br />
+    </p>
+    <p>
+      <label for="objet">Précisions sur votre demande :</label>
+      <input type="text" name="objet" id="objet" />
+    </p>
+    <label for="envoi"></label>
+    <input type="submit" name="envoi" id="envoi" value="Envoyer" />
+    <label for="effacer"></label>
+    <input type="reset" name="effacer" id="effacer" value="Réinitialiser" />
+  </fieldset>
+</form>
+     </div>
+  <div id="Pied"></div>
+  </div>
+<script type="text/javascript">
+<!--
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "email", {isRequired:false, validateOn:["blur", "change"], useCharacterMasking:true});
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "phone_number", {format:"phone_custom", pattern:"00 00 00 00 00", useCharacterMasking:true, validateOn:["blur", "change"]});
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "zip_code", {format:"zip_custom", pattern:"00 000", useCharacterMasking:true, validateOn:["blur", "change"]});
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4", "integer", {validateOn:["blur", "change"], useCharacterMasking:true});
+var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield5", "none", {validateOn:["blur"]});
+//-->
+</script>
+</body>
+</html>
